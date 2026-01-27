@@ -1,13 +1,11 @@
-import { mainImg } from "../../assets/images"
 import "./Home.css"
 
 
 const Home = () => {
   return (
-    <div>
-      <h2>Home</h2>
-      <img src={mainImg} alt="main img" />
-    </div>
+    <section className="home" id="home">
+        <h2>Home</h2>
+    </section>
   )
 }
 

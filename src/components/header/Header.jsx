@@ -1,10 +1,20 @@
+import Nav from '../nav/Nav'
 import './Header.css'
+import { FaXing } from "react-icons/fa";
 
 const Header = () => {
   return (
-      <div>
-          <h1>Header</h1>
-      </div>
+      <header className="header">
+          <div className="container">
+              <div className="header-wrapper">
+                 <a href="" className="logo">Marlen</a>
+                      <Nav/>
+                  {/* <div className="nav-menu-btn">
+                      <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M3 4H21V6H3V4ZM9 11H21V13H9V11ZM3 18H21V20H3V18Z"></path></svg>
+                  </div> */}
+              </div>
+          </div>
+      </header>
   )
 }
 
