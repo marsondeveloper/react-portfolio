@@ -71,8 +71,8 @@
         transition: .3s linear;
     }
 
-    .nav-menu-btn.close {
-        /* background: url(../img/close.svg) no-repeat center; */
+    .nav-menu-btn > svg {
+        font-size: 40px;
     }
 
     .nav-menu {
