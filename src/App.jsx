@@ -12,6 +12,7 @@ function App() {
            <h1>React Portfolio</h1>
         </div>
         <Aboutme/>
+        <Skills/>
       </main>
       <Footer/>
     </>
