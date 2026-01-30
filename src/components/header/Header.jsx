@@ -18,7 +18,7 @@ const Header = () => {
           <div className="container">
               <div className="header-wrapper">
                  <a href="" className="logo">Marlen</a>
-                      <Nav/>
+                  <Nav isMenuOpen={isMenuOpen} />
                   <div className="nav-menu-btn" onClick={toogleMenu}>
                       {isMenuOpen ? <FaXing/> : <FaBarsStaggered/>}
                       {/* <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M3 4H21V6H3V4ZM9 11H21V13H9V11ZM3 18H21V20H3V18Z"></path></svg> */}

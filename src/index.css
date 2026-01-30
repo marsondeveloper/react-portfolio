@@ -229,3 +229,12 @@ main {
   letter-spacing: 1px;
   border-radius: 10px;  
 }
+
+.home-img img {
+    width: 90%;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
