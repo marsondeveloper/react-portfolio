@@ -1,4 +1,4 @@
-import { Header, Footer, Home, Aboutme, Clients, Portfolio, Services, Skills, Contact, Nav } from "./components/index"
+import { Header, Footer, Home, Aboutme, Clients, Portfolio, Services, SkillsInfo, Contact, Nav } from "./components/index"
 
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
            <h1>React Portfolio</h1>
         </div>
         <Aboutme/>
-        <Skills/>
+        <SkillsInfo/>
       </main>
       <Footer/>
     </>
